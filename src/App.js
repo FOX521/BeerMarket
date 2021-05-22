@@ -1,21 +1,17 @@
-import './App.css';
-import {BrowserRouter, Route} from 'react-router-dom';
-import Home from './components/Home';
-import Beer from './components/Beer';
-import Sydr from './components/Sydr';
-import Snacks from './components/Snacks';
-import Ale from './components/Ale';
+import './App.scss';
+import {BrowserRouter} from 'react-router-dom';
 import Header from './components/Header';
+import Content from './components/Content';
+import Footer from './components/Footer';
 
 function App() {
   return (
     <BrowserRouter>
+    <div className='body grid-container'>
       <Header/>
-      <Route exact path={'/'} render={()=> <Home/>}/>
-      <Route path={'/beer'} render={()=> <Beer/>}/>
-      <Route path={'/ale'} render={()=> <Ale/>}/>            
-      <Route path={'/sydr'} render={()=> <Sydr/>}/>
-      <Route path={'/snacks'} render={()=> <Snacks/>}/>
+      <Content/> 
+      <Footer/>
+    </div>
     </BrowserRouter>
   );
 }

@@ -3,21 +3,24 @@ import { NavLink } from 'react-router-dom'
 
 const Navbar = () => {
     return (
-        <ul>
+        <ul className='header__navigation'>
              <li>
-                <NavLink to='/'>Главная</NavLink>
+                <NavLink className='header__navigation-item' to='/' >Главная</NavLink>
             </li>
             <li>
-                <NavLink to='/beer'>Пиво</NavLink>
+                <NavLink className='header__navigation-item' to='/beer'>Пиво</NavLink>
             </li>
             <li>
-                <NavLink to='/ale'>Эль</NavLink>
+                <NavLink className='header__navigation-item' to='/ale'>Эль</NavLink>
             </li>
             <li>
-                <NavLink to='/sydr'>Сидр</NavLink>
+                <NavLink className='header__navigation-item' to='/sydr'>Сидр</NavLink>
             </li>
             <li>
-                <NavLink to='/snacks'>Снеки</NavLink>
+                <NavLink className='header__navigation-item' to='/snacks'>Снеки</NavLink>
+            </li>
+            <li>
+                <NavLink className='header__navigation-item' to='/presents'>Наборы</NavLink>
             </li>
         </ul>
     )

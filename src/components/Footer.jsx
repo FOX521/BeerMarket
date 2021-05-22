@@ -3,7 +3,9 @@ import Documents from './Documents';
 
 const Footer = () => {
     return (
-        <Documents/>
+        <footer className='grid-footer'>
+            <Documents/>
+        </footer>
     )
 }
 
