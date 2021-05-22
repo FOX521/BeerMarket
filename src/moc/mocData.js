@@ -1,6 +1,6 @@
 const mocData = {
 
-    DataDrink : [
+    DataDrink: [
         {
             nameDrink: 'Irish Papa',
             describeDrink: 'Tasty and very thick staut from Iriland',
@@ -71,7 +71,7 @@ const mocData = {
                 isNitrogen: false
             },
         },
-         {
+        {
             nameDrink: 'BR',
             describeDrink: '',
             priceDrink: '600r',
@@ -85,7 +85,7 @@ const mocData = {
                 isNitrogen: false
             },
         },
-         {
+        {
             nameDrink: 'XP Brew',
             describeDrink: '',
             priceDrink: '400r',
@@ -98,7 +98,7 @@ const mocData = {
                 isCraft: true,
                 isNitrogen: false
             },
-        }, 
+        },
         {
             nameDrink: 'Giness',
             describeDrink: '',
@@ -112,7 +112,7 @@ const mocData = {
                 isCraft: false,
                 isNitrogen: true
             },
-        }, 
+        },
         {
             nameDrink: 'Leffe   ',
             describeDrink: '',
@@ -127,7 +127,7 @@ const mocData = {
                 isNitrogen: false
             },
         },
-         {
+        {
             nameDrink: 'Weihenstephaner Dunkles',
             describeDrink: '',
             priceDrink: '500r',
@@ -156,73 +156,112 @@ const mocData = {
             }
         }
     ],
-    
-    DataSnacks : [
+
+    DataSnacks: [
         {
             nameSnacks: 'Penaut salty',
             describeSnacks: '',
             priceSnacks: '100r',
             madeCountrySnacks: 'Russia',
-            photoSnacks:'https://15.img.avito.st/640x480/3264623115.jpg'
+            photoSnacks: 'https://15.img.avito.st/640x480/3264623115.jpg'
         },
         {
             nameSnacks: 'Fish',
             describeSnacks: '',
             priceSnacks: '1120r',
             madeCountrySnacks: 'Russia',
-            photoSnacks:'https://discount-h.ru/upload/iblock/ea0/ea09086a83c0be605b4a72bd808996b1.jpg'
+            photoSnacks: 'https://discount-h.ru/upload/iblock/ea0/ea09086a83c0be605b4a72bd808996b1.jpg'
         },
         {
             nameSnacks: 'Garliks',
             describeSnacks: '',
             priceSnacks: '90r',
             madeCountrySnacks: 'Russia',
-            photoSnacks:'https://druzhishe.com.ua/image/cache/catalog/%D0%9A%20%D0%BF%D0%B8%D0%B2%D1%83/%D0%93%D1%80%D0%B5%D0%BD%D0%BA%D0%B8%20%D1%81%20%D1%87%D0%B5%D1%81%D0%BD%D0%BE%D0%BA%D0%BE%D0%BC%20%D0%B2%D0%B5%D1%81-250x250.jpg'
+            photoSnacks: 'https://druzhishe.com.ua/image/cache/catalog/%D0%9A%20%D0%BF%D0%B8%D0%B2%D1%83/%D0%93%D1%80%D0%B5%D0%BD%D0%BA%D0%B8%20%D1%81%20%D1%87%D0%B5%D1%81%D0%BD%D0%BE%D0%BA%D0%BE%D0%BC%20%D0%B2%D0%B5%D1%81-250x250.jpg'
         },
         {
             nameSnacks: 'Pig meat',
             describeSnacks: '',
             priceSnacks: '150r',
             madeCountrySnacks: 'Russia',
-            photoSnacks:'https://grandkulinar.ru/uploads/posts/2018-01/1516465049_domashnee_vyalenoe_myaso_dzherki_iz_govyadiny.jpg'
+            photoSnacks: 'https://grandkulinar.ru/uploads/posts/2018-01/1516465049_domashnee_vyalenoe_myaso_dzherki_iz_govyadiny.jpg'
         },
         {
             nameSnacks: 'Beef meat',
             describeSnacks: '',
             priceSnacks: '170r',
             madeCountrySnacks: 'Russia',
-            photoSnacks:'http://i5.stat01.com/2/2931/129300487/afacdb/vyalenoe-myaso-jpg.jpg'
+            photoSnacks: 'http://i5.stat01.com/2/2931/129300487/afacdb/vyalenoe-myaso-jpg.jpg'
         },
         {
             nameSnacks: 'Chicken meat',
             describeSnacks: '',
             priceSnacks: '100r',
             madeCountrySnacks: 'Russia',
-            photoSnacks:'https://кетоша.рф/pictures/product/big/7443_big.png'
+            photoSnacks: 'https://кетоша.рф/pictures/product/big/7443_big.png'
         },
         {
             nameSnacks: 'Spruts',
             describeSnacks: '',
             priceSnacks: '130r',
             madeCountrySnacks: 'Russia',
-            photoSnacks:'https://static9.depositphotos.com/1026531/1144/i/600/depositphotos_11440758-stock-photo-dried-squid-isolated-on-the.jpg'
+            photoSnacks: 'https://static9.depositphotos.com/1026531/1144/i/600/depositphotos_11440758-stock-photo-dried-squid-isolated-on-the.jpg'
         },
         {
             nameSnacks: 'Spruts\'s rings',
             describeSnacks: '',
             priceSnacks: '140r',
             madeCountrySnacks: 'Russia',
-            photoSnacks:'https://cdn1.ozone.ru/s3/multimedia-h/c500/6008034137.jpg'
+            photoSnacks: 'https://cdn1.ozone.ru/s3/multimedia-h/c500/6008034137.jpg'
         },
         {
             nameSnacks: 'Pistachio',
             describeSnacks: '',
             priceSnacks: '200r',
             madeCountrySnacks: 'Russia',
-            photoSnacks:'https://sheffnut.ru/images/stories/virtuemart/product/fistashkasiraya4.jpg'
+            photoSnacks: 'https://sheffnut.ru/images/stories/virtuemart/product/fistashkasiraya4.jpg'
         }
-    ]
-}
+    ],
+    DataPresent:
+        [
+            {
+                setName: 'Lord',
+                photoSet: 'https://i.pinimg.com/236x/45/dd/1e/45dd1eca5f76fb7402ef01a42993b610.jpg',
+                setSnacks: {
+                    firstSnacks: 'Penaut'   ,
+                    twiceSnacks: 'Phistahio'
+                },
+                setDrinks: {
+                    firstDrink: 'Guiness',
+                    twiceDrink: 'Amstei'
+                }
+            },
+            {
+                setName: 'Imperator',
+                photoSet: 'https://shop-cdn1.vigbo.tech/shops/40337/products/14444852/images/2-8fcefa6d2f9bfae0aa40b0cc851adfab.jpg',
+                setSnacks: {
+                    firstSnacks: 'Dark Choclate',
+                    twiceSnacks: 'lobster'
+                },
+                setDrinks: {
+                    firstDrink: 'BR',
+                    twiceDrink: 'Leffe'
+                }
+            },
+            {
+                setName: 'Count',
+                photoSet: 'https://cdn2.flowwow.com/data/flowers/524x524/56/1550486584_88814456.jpg',
+                setSnacks: {
+                    firstSnacks: 'Omar',
+                    twiceSnacks: 'Sprut'
+                },
+                setDrinks: {
+                    firstDrink: 'Irish Papa',
+                    twiceDrink: 'Weihenstephaner Dunkles'
+                }
+            }
+        ]
+};
 
 
 export default mocData;

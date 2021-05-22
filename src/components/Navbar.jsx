@@ -19,6 +19,9 @@ const Navbar = () => {
             <li>
                 <NavLink className='header__navigation-item' to='/snacks'>Снеки</NavLink>
             </li>
+            <li>
+                <NavLink className='header__navigation-item' to='/presents'>Наборы</NavLink>
+            </li>
         </ul>
     )
 }
