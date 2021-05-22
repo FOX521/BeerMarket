@@ -1,0 +1,21 @@
+.header__navigation {
+    display: flex; 
+    flex-wrap: wrap;
+    height: max-content;
+    justify-content: center;
+    gap: 90px;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    list-style: none;
+    background-color: yellow;
+}
+
+.header__navigation-item {
+    color: black;
+    font-size: 36px;
+    font-family: 'Amatic SC', cursive;
+    font-weight: bold;
+    text-decoration: none;
+}
